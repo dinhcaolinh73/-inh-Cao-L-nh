@@ -1,0 +1,13 @@
+package k64.shape;
+
+public class Shape {
+    double area;
+    String name;
+
+    public Shape(String name){
+        this.name = name;
+    }
+    public double calculateArea(){
+        return 0;
+    }
+}
